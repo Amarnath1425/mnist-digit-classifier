@@ -6,7 +6,6 @@ from keras.layers import Dense, Input, Flatten
 from keras.losses import SparseCategoricalCrossentropy
 from keras.optimizers import Adam
 from keras.datasets import mnist
-from PIL import Image, ImageOps
 
 physical_devices = tf.config.list_physical_devices('GPU')
 if physical_devices:
